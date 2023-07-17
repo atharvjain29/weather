@@ -1,0 +1,84 @@
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+ }
+
+main{
+    margin: auto;
+    padding: 1em;
+    background-color: #8baad1;
+    width: 80%;
+    height: 100%;
+    
+}
+
+ article {
+    width: 100%;
+    text-align: center;
+    background: #f8d7da;
+    overflow: auto;
+ }
+ 
+ h2 {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+ }
+ 
+h1{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+ 
+ body, html{
+    background-color: #5E96AE;
+    height: 20%;
+    display: grid;
+    font-family: Candara;
+    
+} 
+ 
+ #start {
+    text-align: center;
+    width: 100%;
+    float: left;
+    clear: left;
+    margin: 0.5em 0;
+    font-weight: bold;
+ }
+ 
+ #map {
+    min-height: 300px;
+    width: 100%;
+    float: left;
+    clear: left;
+ }
+ 
+
+#weatherFinder{
+    
+    border-radius: 3em;
+    background-color: #293251;
+    width: 98%;
+    padding: 1em;
+    color: lavender;
+    font-family: Courier;
+}
+#select{
+    
+    border-radius: 3em;
+    background-color: #293251;
+    width: 98%;
+    padding: 1em;
+    color: lavender;
+    font-family: Courier;
+}
+
+#findLocation{
+    display: block;
+    font-size: 1em;
+}

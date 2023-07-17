@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+Atharv Jain -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Finder</title>
+    <link rel="stylesheet" href="app.css" />
+
+
+</head>
+<!-- part -->
+<body>
+<main>
+ <h1>Weather Application</h1>
+        <br />
+<article>
+    <div id="start">
+       Your Current location:
+    </div>
+    <div id="map">
+	</div>
+ </article>
+ 
+ 
+ <!--<script src="https://maps.googleapis.com/maps/api/js?v=AIzaSyDnhNIc55-nwsKi5D4KgGF04rwxd4g48jE&callback=geoTest"></script>-->
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnhNIc55-nwsKi5D4KgGF04rwxd4g48jE&callback=geoTest&libraries=&v=weekly"
+         defer></script>
+
+        
+<!-- part -->
+    <br />
+    <br />
+	
+    <label for="city">Enter the City Name Here:</label>
+	
+    <input type="text" id="city" placeholder="City name:" required>
+	
+    <button id="Btn" onclick="BtnClick()">Search!!</button>
+    <br />
+    <br />
+	
+    <div id="select">
+	
+    <p id="weather">Weather: </p>
+    </div>
+    <br />
+    
+	
+<!-- part -->
+        <p id="status">Search the Weather For Your Location:</p>
+		
+		<button id="findLocation" onclick="setUpPage()">Click Here For Your Location!</button>
+        <br />
+
+    <div id="weatherFinder">
+        <p>No Information Yet!</p>
+    </div>
+    <br />
+    <br />
+    
+
+
+<!-- end-->
+
+<footer><h6>&copy;&nbsp;Copyright Atharv jain</h6>
+</footer>
+
+</main>
+    <script src="script.js"></script>
+    
+
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
